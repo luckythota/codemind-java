@@ -12,7 +12,7 @@ class pattern
             {
                 System.out.print(j+"");
             }
-            for(j=1; j<=n-3; j++)
+            for(j=n-3; j>=1; j--)
             {
                 System.out.print(j+"");
             }
