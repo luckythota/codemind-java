@@ -6,9 +6,9 @@ class pattern
         int n,i,j;
         Scanner sc=new Scanner(System.in);
         n=sc.nextInt();
-        for(i=0; i<n; i++)
+        for(i=n-1; i>=0; i--)
         {
-            for(j=n; j>=1; j--)
+            for(j=i; j>=0; j--)
             {
                 System.out.printf("%c ",i+65);
             }
