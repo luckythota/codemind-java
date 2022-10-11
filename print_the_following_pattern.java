@@ -8,14 +8,15 @@ class pattern
         n=sc.nextInt();
         for(i=1; i<=n; i++)
         {
-            for(j=n; j>=1; j--)
+            for(j=1; j<=n-2; j++)
             {
-                    System.out.print(j+" ");
-
+                System.out.print(j+"");
             }
-                System.out.println();
+            for(j=1; j<=n-3; j++)
+            {
+                System.out.print(j+"");
+            }
+            System.out.println();
         }
-        
-        
     }
 }
