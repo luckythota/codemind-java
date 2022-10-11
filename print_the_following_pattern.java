@@ -8,11 +8,7 @@ class pattern
         n=sc.nextInt();
         for(i=1; i<=n; i++)
         {
-            for(j=1; j<=n-2; j++)
-            {
-                System.out.print(j+"");
-            }
-            for(j=n-3; j>=1; j--)
+            for(j=1; j<=i; j++)
             {
                 System.out.print(j+"");
             }
